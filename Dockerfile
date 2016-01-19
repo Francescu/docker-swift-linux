@@ -7,10 +7,7 @@ ENV SWIFT_PLATFORM ubuntu15.10
 # Install Dependencies
 RUN apt-get update && \
     apt-get install -y \
-        clang \
-        libicu55 \
-        libpython2.7 \
-        wget && \
+        wget cmake ninja-build clang python uuid-dev libicu-dev icu-devtools libbsd-dev libedit-dev libxml2-dev libsqlite3-dev swig libpython-dev libncurses5-dev pkg-config && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
