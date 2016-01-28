@@ -1,7 +1,7 @@
 FROM ubuntu:15.10
 
 # Latest Swift Version 
-ENV SWIFT_VERSION 2.2-SNAPSHOT-2016-01-11-a
+ENV SWIFT_VERSION 2.2-SNAPSHOT-2016-01-25-a
 ENV SWIFT_PLATFORM ubuntu15.10
 
 # Install Dependencies
